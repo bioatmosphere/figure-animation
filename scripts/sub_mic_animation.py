@@ -11,8 +11,8 @@ from mpl_toolkits.axes_grid1 import make_axes_locatable
 
 # data
 cellulose     = pd.read_csv('data/cellulose.csv',index_col=0)
-data_bacteria = pd.read_csv('data/bacteria.csv',index_col=0)
-data_fungi    = pd.read_csv('data/fungi.csv',index_col=0)
+data_bacteria = pd.read_csv('data/bacteria.csv', index_col=0)
+data_fungi    = pd.read_csv('data/fungi.csv',    index_col=0)
 
 
 # figure
